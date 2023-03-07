@@ -49,9 +49,7 @@ def main():
         try:
             print(a)
             response = os.system("ping " + hostname + ' -t')
-        except Exception as e:
-            print(f"[ {Fore.RED}-{Fore.RESET} ] Ping failed: {e}")
-            sleep(2)
+        except:
             main()
 
 main()
