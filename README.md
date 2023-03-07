@@ -1,6 +1,6 @@
 ### IP PINGER
-Custom Options
-Control C To stop/refresh screen
+-Custom Options
+-Control C To stop/refresh screen
 
 ### REQUIREMENTS
 - pip install colorama
